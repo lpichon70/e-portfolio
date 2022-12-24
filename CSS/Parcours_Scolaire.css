@@ -1,0 +1,107 @@
+
+/*Mise en forme de la page de parcours*/
+#parcours{
+    min-height: 100vh;
+    min-width: 100vh;
+
+    background-color: #162f17;
+
+    display: flex;
+}
+
+.colonne{
+    width: 50vh;
+
+    padding-top: 2vh;
+    padding-left : 20vh;
+    
+}
+
+.colonne-professionnel{
+    padding-top: 34vh;
+    padding-left: 55vh;
+}
+/*Fin de la mise en forme de la page*/
+
+
+
+
+/*Bulles contenant la catégorie de diplôme*/
+.cercle{
+    background-color: antiquewhite;
+    height: 100px;
+    width: 100px;
+
+    border-radius: 180px;
+
+    text-align: center;
+
+    
+}
+
+.bulle-content{
+    margin-top:30%;
+}
+/*Fin des bulles*/
+
+
+/*Trais reliant les bulles*/
+.ligne-horizontale{
+    height: 150px;
+    width: 5px;
+    background-color: aliceblue;
+
+    margin-left: 12%;
+}
+
+.limite{
+    height: 50px;
+}
+/*Fin des trais*/
+
+
+
+/*Petite description de la bulle pour donner plus d'informations*/
+.palier{
+    display: flex;
+}
+
+.ligne-description{
+    width: 70%;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+
+.bulle-description{
+    background-color: black;
+    opacity: 0.6;
+    color:rgb(255, 255, 255);
+    border-radius: 5px;
+
+    width: 30vh;
+    margin-left: 20vh;
+
+    padding-bottom: 15px;
+
+    position:absolute;
+}
+
+.description{
+    margin-top: 20px;
+    text-indent: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.titre-description{
+    margin-left: 20px;
+
+    margin-top: 20px;
+    margin-bottom: 5px;   
+    
+    font-size: larger;
+    font-family: 'Times New Roman', serif;;
+}
+
+/*Fin de la description*/

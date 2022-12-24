@@ -4,6 +4,10 @@
         <title>E-Porfolio</title>
         <link rel="stylesheet" href="./CSS/Initialisation.css" type="text/css">
         <link rel="stylesheet" href="./CSS/Index.css" type="text/css">
+        <link rel="stylesheet" href="./CSS/ProposDeMoi.css" type="text/css">
+        <link rel="stylesheet" href="./CSS/Parcours_Scolaire.css" type="text/css">
+        <link rel="stylesheet" href="./CSS/projetPerso.css" type="text/css">
+    </head>
     </head>
 
     <body>
@@ -12,13 +16,16 @@
             <div id="nav">
                 <ul>
                     <li>
-                        <a href="#" >Projets personnels</a>
+                        <a href="#entete" >Accueil</a>
                     </li>
                     <li>
-                        <a href="#" >Parcours</a>
+                        <a href="#a-propos-de-moi" >A propos de moi</a>
                     </li>
                     <li>
-                        <a href="#" >Passions</a>
+                        <a href="#parcours" >Parcours / Projets</a>
+                    </li>
+                    <li>
+                        <a href="#projet-perso" >Projets personnels</a>
                     </li>
                 </ul>  
             </div>
@@ -30,31 +37,157 @@
                 <div id="ligne-Under"></div>
             </div>
 
-
             <main>
-                <div id="title">
+                <div class="title">
                     <div class="ligne"></div>
                         <h2>
-                            Description
+                            Lucas PICHON
                         </h2>
                     <div class="ligne"></div>
                 </div>
                 
-
+                
                 <p>
                     Bienvenue dans mon e-portfolio.
                     <br>
                     Celui-ci va vous permettre d’apprendre à mieux <br> me connaître et ce, dans la vie de tous les jours.
                 </p>
+
             </main>
         </div>
             
+        <div id="a-propos-de-moi"></div>
+
+        <div id="parcours">
+
+            <!--Parcours scolaire (diplôme)-->
+            <div class="colonne">
+
+                <div class="ligne-horizontale limite"></div>
+
+                <div class="palier">
+                    <fieldset class="cercle">
+                        <p class="bulle-content">Bac technologique</p>
+                    </fieldset>
+                    <div class="bulle-description">
+                        <h3 class="titre-description">Année 2018-2021</h3>
+                        <div class="ligne-description"></div>
+                        <p class="description">Obtention du baccalauréat mention assez-bien. Filière STI2D (sciences et technologies de l'industrie) spécialité Architecture et Construction.</p>
+                    </div>
+                </div>
+
+                <div class="ligne-horizontale"></div>
+
+                <div class="palier">                    
+                    <fieldset class="cercle">
+                        <p class="bulle-content">BUT Informatique</p>
+                    </fieldset>
+                    <div class="bulle-description">
+                        <h3 class="titre-description">Année 2021-2024</h3>
+                        <div class="ligne-description"></div>
+                        <p class="description">Je suis actuellement en deuxième année de BUT informatique à l'IUT de Dijon. Ma formation touchera à sa fin en 2024.</p>
+                    </div>
+                </div>
+                
+                <div class="ligne-horizontale"></div>
+
+                <div class="palier">
+                    <fieldset class="cercle">
+                        <p class="bulle-content">Ecole d'Ingénieur  </p>
+                    </fieldset>
+                    <div class="bulle-description">
+                        <h3 class="titre-description">Année 2024-2026</h3>
+                        <div class="ligne-description"></div>
+                        <p class="description">Suite à l'obtention de mon BUT, j'ai pour but d'étudier quelques années de plus dans une école d'ingénieur (LESIREM - Dijon). Le BUT étant une nouvelle réforme, je ne sais pas encore si ce diplôme pourra être obtenu en 2 ou 3 ans. </p>
+                    </div>
+                </div>
+
+                <div class="ligne-horizontale limite"></div>
+                
 
 
-        <div id="projetPerso">
+            
+            </div>
+
+        
+            <!--Parcours professionnel (diplôme)-->
+            <div class="colonne colonne-professionnel"> 
+                <div class="ligne-horizontale limite"></div>
+                <div id="container-colonne">
+                    <div class="palier">
+                        <fieldset class="cercle">
+                            <p class="bulle-content">Conseiller de Vente  </p>
+                        </fieldset>
+                        <div class="bulle-description">
+                            <h3 class="titre-description">Août 2022</h3>
+                            <div class="ligne-description"></div>
+                            <p class="description">Job d'été à Intersport en tant que conseiller de vente dans un rayon textile.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ligne-horizontale limite"></div>
+            </div>            
+        </div>
+
+        <!--Projets personnels-->
+        <div id="projet-perso">
+                
+            <div class="carousel">
+                
+                <div class="title title-carousel">
+                    <div class="ligne"></div>
+                    <h2>Projets personnels</h2>
+                    <div class="ligne"></div>
+                </div>
+                <div class="slider" id="slider_1">   
+                    <div class="slider-panel active"></div>
+                    <div class="slider-panel"></div>
+                    <div class="slider-panel"></div>
+                    <div class="slider-panel"></div>
+                    <div class="bouton-container">
+                        <div class="slider-control active"></div>
+                        <div class="slider-control"></div>
+                        <div class="slider-control"></div>
+                        <div class="slider-control"></div>
+                    </div> 
+                    <div class="projet-description">
+                        <h5 class="info-carousel"></h5>
+                        <div class="underline"></div>
+                    </div>
+                    
+                    <div class="previous-image bouton">
+                        <img src="./Ressources/previous.png" class="icon-bouton previous">
+                    </div>
+                    <div class="next-image bouton">
+                        <img src="./Ressources/next.png" class="icon-bouton next">
+                    </div> 
+                      
+                </div> 
+                
+                        
+            </div>
+
+
+            <div class="depot-git">
+                <div class="title title-git">
+                    <div class="ligne"></div>
+                    <h2>Accès à mon dépôt GitHub</h2>
+                    <div class="ligne"></div>
+                </div>
+                <a href="https://github.com/lpichon70"><img src="./Ressources/git.png" class="logo-git"></a>
+            </div>
             
         </div>
 
+
+
+
+        <script src="https://code.jquery.com/jquery-3.6.2.js"
+        integrity="sha256-pkn2CUZmheSeyssYw3vMp1+xyub4m+e+QK4sQskvuo4="
+        crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="./JS/navBarre.js"></script>
+        <script src="./JS/carrousel.js"></script>
     </body>
 
 

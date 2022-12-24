@@ -1,0 +1,191 @@
+/*Mise en forme de la taille de page*/
+#projet-perso{
+    min-height: 100vh;
+    min-width: 100vh;
+    background-color: rgb(55, 55, 55);
+}
+/*Fin de la mise en forme de la page*
+
+
+
+/*gestion du carrousel */
+.carousel{
+    padding-top: 50px;
+}
+
+.title-carousel{
+    margin-left: 41%;
+    margin-bottom: 50px;
+}
+
+
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+
+
+.slider-panel
+{
+    position: absolute;
+    width:  93.5vh;
+    height: 100%;
+
+    margin-left: 49vh;
+
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity:0;
+    transition:1s all;
+
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 10px;
+}
+
+.slider-panel:nth-child(1) {
+	background-image: url(../Ressources/projetS3.png);
+}
+
+.slider-panel:nth-child(2) {
+	background-image: url(../Ressources/QualiteDevS3.png);
+}
+
+.slider-panel:nth-child(3) {
+	background-image: url(../Ressources/projetS2.png);
+}
+
+.slider-panel:nth-child(4) {
+	background-image: url(../Ressources/portfolio.png);
+}
+
+.slider-panel.active{    
+    opacity:1;
+}
+
+
+
+.slider-control {
+    display: inline-block;
+    width: 25px;
+    height: 1px;
+    margin-left: 15%;
+    background-color: rgb(207, 207, 207);
+    cursor: pointer;
+
+    margin-top: 420px;
+}
+
+.slider-control.active {
+    background-color: rgb(255, 255, 255);
+
+    height: 2px;
+}
+
+.bouton-container{
+
+    position:absolute;
+    width: 300px;
+
+    margin-left: 600px;
+}
+
+.info-carousel{
+    position: absolute;
+
+    margin-top: 56vh;
+
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+
+.underline{
+    position: absolute;
+
+    margin-top: 59vh;
+
+    border: solid 1px whitesmoke;
+    width: 50vh;
+
+    margin-left: 71vh;
+}
+
+/*Gestion des boutons du carousel*/
+.bouton{
+    position: absolute;
+
+    height: 400px;
+    width: 100px;
+
+    background-color: rgb(184, 184, 199);
+
+    opacity: 0.5;
+
+    z-index: 10;
+
+    cursor: pointer;
+
+    border-radius: 10px;
+}
+
+.next-image{
+    margin-left: 130vh;
+}
+
+.previous-image{
+    margin-left: 49vh;
+}
+
+.icon-bouton{
+    width: 50px;
+    height: 50px;
+
+    margin-top: 165px;
+
+    margin-left: 20px;
+}
+
+
+
+/*Fin des boutons*/
+
+
+.depot-git{
+    padding-top: 50px;
+    
+}
+
+
+.logo-git{
+    display: block;
+    width: 50px;
+    margin: auto;
+    margin-top: 40px;
+    
+
+    transition : transform 500ms linear;
+    transform-origin : 50% 50%;
+}
+
+.logo-git:hover{
+    transform : rotate(360deg);
+  }
+
+h2{
+    color: whitesmoke;
+
+}
+
+.title-git{
+    margin-left: 37%;
+}
+
+
+
+
+

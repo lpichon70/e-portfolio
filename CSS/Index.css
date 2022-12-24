@@ -1,26 +1,29 @@
-/*Mise en forme de la barre de navigation*/
 
+
+
+
+/*Mise en forme de la barre de navigation*/
 #nav{
     opacity: 0.8;
     background-color: rgb(151, 145, 145);
-}
+    height: 0px;
+    width: 98%;
+    margin-left: 15px;
+    z-index: 1000;
+    top: 10px;
+    position: fixed;
 
-ul {
-    list-style-type: none;
-    overflow: hidden;
-    border: 1px solid #e7e7e7;
-    top: 20vh;
+    border : solid 1px white;
 }
 
 li {
     float:left;
-    margin-left: 19%;
+    margin-left: 28vh;
 }
 
 li a {
     display: block;
     color: rgb(255, 255, 255);
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     
@@ -50,7 +53,7 @@ li a.active {
 #underline{
     width: 300px;
     margin: auto;
-    margin-top: 55px;
+
     margin-bottom: 150px;
 }
 
@@ -60,15 +63,20 @@ li a.active {
     color :azure;
     text-align: center;
     
-    min-height: 100vh;
+    min-height: 88vh;
     min-width: 100vh;
+
+    top: 0;
+
+    padding-top: 100px;
     
 }
 
-#title{
+.title{
     display: inline-flex;
     margin-top: 20px;
 }
+
 
 main{
     width: 32%;
@@ -102,10 +110,10 @@ main:hover, main:focus, main:active {
 
 
 .ligne{
-    border :1px whitesmoke solid;
-    width: 20px;
+    width: 30px;
     margin-top: 32px;
-    height: 0px;
+    height: 1px;
+    background-color: whitesmoke;
 }
 
 #ligne-Under{
@@ -132,9 +140,5 @@ p{
 /*Fin de le mise en forme de l'entête*/
 
 
-/*Deuxième page concernant mes projets personnels*/
+/*Animation des boutons ancre lors du clique*/
 
-
-
-
-/*FIn de la deuxième page*/
